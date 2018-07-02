@@ -11,6 +11,8 @@
 
 #header {
   background: url("../images/the-flatiron-building.png");
+  background-size: cover;
+  padding: 0 0 10px 0;
 }
 
 #header h1 {
@@ -19,9 +21,13 @@
   color: white;
 }
 
-a {
+#header a {
   font-size: 18px;
   color: white;
+}
+
+#header a:hover {
+  color: dimgray;
 }
 
 h2 {
@@ -38,7 +44,7 @@ p {
   font-size: 14px;
 }
 
-#designed h3 {
+#designed {
   background: url("../images/the-flatiron-building.png");
   font-size: 23px;
   font-weight: bold;
@@ -50,4 +56,12 @@ p {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: black;
 }
