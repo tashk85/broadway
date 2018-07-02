@@ -2,31 +2,32 @@
   font-family: Helvetica, sans-serif;
 }
 
-#header,
+#hero,
 #process,
-#designed,
-#portfolio {
+#work,
+#team,
+#contact {
   text-align: center;
 }
 
-#header {
+#hero {
   background: url("../images/the-flatiron-building.png");
   background-size: cover;
-  padding: 0 0 10px 0;
+  color: white;
 }
 
-#header h1 {
+h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
-#header a {
+.nav {
   font-size: 18px;
   color: white;
 }
 
-#header a:hover {
+#hero a:hover {
   color: dimgray;
 }
 
@@ -44,22 +45,11 @@ p {
   font-size: 14px;
 }
 
-#designed {
-  background: url("../images/the-flatiron-building.png");
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-}
-
 #footer {
   font-size: 11px;
   color: white;
   background-color: dimgray;
   text-align: left;
-}
-
-#footer a {
-  color: white;
 }
 
 #footer a:hover {
